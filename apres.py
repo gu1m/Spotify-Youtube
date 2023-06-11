@@ -9,7 +9,7 @@ import seaborn as sns
 import numpy as np
 
 # lendo arquivos
-df = pd.read_csv("C:\\Users\\gguim\\OneDrive\\Desktop\\trab\\df.csv")
+df = pd.read_csv("df.csv")
 
 # tirando todos os dados que não tem dados completos
 df = df.dropna()
